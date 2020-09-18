@@ -1,0 +1,23 @@
+
+{
+  "name": "react-native-shudan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "0.63.2"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "src/"
+  ]
+}
