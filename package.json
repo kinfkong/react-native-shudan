@@ -3,7 +3,16 @@
   "name": "react-native-shudan",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/main.js",
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@sabaki/go-board": "^1.4.1",
+    "onchange": "^6.1.0",
+    "prettier": "1.19.1",
+    "react": "^16.13.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
