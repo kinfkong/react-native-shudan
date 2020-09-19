@@ -11,7 +11,9 @@ import {
   SafeAreaView,
   StyleSheet,
   StatusBar,
+  Text,
 } from 'react-native';
+const Board = require('@sabaki/go-board')
 
 import {
   Header,
@@ -27,7 +29,7 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-       
+        <Text>KK</Text>
       </SafeAreaView>
     </>
   );
