@@ -12,8 +12,10 @@ import {
   StyleSheet,
   StatusBar,
   Text,
-} from 'react-native';
+} from 'react-native'
+import {Line} from 'react-native-shudan'
 const Board = require('@sabaki/go-board')
+
 
 import {
   Header,
@@ -24,12 +26,12 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Text>KK</Text>
+        
       </SafeAreaView>
     </>
   );

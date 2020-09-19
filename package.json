@@ -16,10 +16,6 @@
   "author": "",
   "license": "",
   "peerDependencies": {
-    "react-native": "0.63.2"
-  },
-  "files": [
-    "README.md",
-    "src/"
-  ]
+    "react-native": ">=0.63.2"
+  }
 }

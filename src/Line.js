@@ -1,4 +1,4 @@
-const {createElement: h, Component} = require('react-native')
+const { Text, View, Component} = require('react-native')
 const {vertexEquals} = require('./helper')
 
 class Line extends Component {
@@ -23,7 +23,7 @@ class Line extends Component {
 
     let angle = (Math.atan2(dy, dx) * 180) / Math.PI
     let length = Math.sqrt(dx * dx + dy * dy)
-
+    /*
     return h('div', {
       className: `shudan-${type}`,
       style: {
@@ -34,7 +34,12 @@ class Line extends Component {
         width: length,
         transform: `translateX(${-length / 2}px) rotate(${angle}deg)`
       }
-    })
+    })*/
+    return (
+      <View>
+        <Text>KK</Text>
+      </View>
+    )
   }
 }
 
