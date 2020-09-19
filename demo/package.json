@@ -13,7 +13,7 @@
     "git": "^0.1.5",
     "react": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-shudan": "..",
+    "react-native-shudan": "../",
     "@sabaki/go-board": "../../go-board"
     
   },
